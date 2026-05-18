@@ -1,91 +1,80 @@
 # sesión 05 - 10/04
 
-***CLASE 24/04***
+## TRANSFORMACIONES & CONDICIONALES  
+### Transformaciones  
+#### Ángulos  
+angleMode(); por defecto p5.js usa radiantes para medir los ángulos  
+angleMode(RADIANS);  
+Para cambiar a grados se usa esto en el function SETUP  
+angleMode(DEGREES);  
+(hay que pensar como se mueven las agujas del reloj; TWO_PI 360º, PI 180º, HALF_PI 90º, QUARTER_PI 45º)
 
-* Para agregar un código en github hay que agregar tres comillas (ej: '''rect(10,10,30,100)''' ) Para bloque de código
-* Para usar entre medio de una oración 'código p5'
+#### Rotación  
+rotate(); sirve para rotar elementos, SIEMPRE ROTA ALREDEDOR DEL PUNTO DE ORIGEN (0,0). Se recomienda usar con translate(); y en algunos casos con rectMode(CENTER);  
+SINTAXIS: rotate(valor radianes o en grados);  
+EJEMPLO: rotate(20);
 
-**CLASE DE HOY**  
-4 pilares fundamentales
+#### Trasladar  
+translate(); sirve para trasladar el PUNTO DE ORIGEN (0,0) a otra cordenada de mi canvas.  
+SINTAXIS: translate(x,y);  
+EJEMPLO: transalte(200,200);
 
-**DESCOMPOSICÓN**  
-"Dividir para conquistar"  
-Consiste en tomar un problema grande y complejo y romperlo en partes pequeñas y manejables.  
-* En diseño: Si quieres visualizar la "Brecha Salarial" no programes todo de una vez, separar o diseñar primero "sueldo A", luego "saldo B", "C", después interacción y luego por último el fondo
-* En el código: Se traduce en el uso de **funciones propias**
+#### Guardar y Restaurar
+push();  
+pop();  
+Funciones que trabajan juntas como un "sistema de memoria temporal" para el estilo y las transformaciones del lienzo.  
+SINTAXIS: push();  
+SINTAXIS: pop();
 
-**RECONOCIMIENTO DE PATRONES**  
-"Encontrar similitudes"  
-Es observar tendencias o regularidades dentro de un problmea. Si algo se repite o sigue una logica constante, podemos automatizarlo.  
-* Diseño: Para presentar 100 personas no necesitas deobujar 100 veces. Notas que todas son un c{irculoo con una posicion x distinta.
-* Código: Bucles
+#### Escala  
+scale(); la función scale() ajusta la escala del sistema de coordenadas actual por el factor específico.  
+SINTAXIS: scale(x,y);  
+EJEMPLO: scale(2,2);
 
-**ABASTRACCIÓN**  
-"Lo importante v/s el detalle"  
-Filtrar info necesaria y quedarse solo con las caracteristicas que definen el problema. Es crear una representaci{on simbolica de la realidad.  
-* En diseño: Simplificar formas de representación
-* Uso de variables y funcion map()
+### CONDICIONALES  
+* LÓGICA CONDICIONAL
+* EXPRESIÓN BOOLEANA: una expresión booleana es cualquier enunciado, dato o instrucción que, al ser evaluado, solo puede arrojar uno de dos valores posibles: verdadero (True) o falso (False).
+TRUE OR FALSE -> ejemplo: si algún estudiante apaga por completo las luces de la sala, la profesora debe bailar.
+Expresión Booleana para construir este tipo de expresiones se utilizan 3 tipos de elementos: OPERADORES
+- Operados (o valores): son los datos básicos que se evalúan. Pueden ser:
+* Variables: (como x,y o mouseX, mouseY, etc)
+* Constantes o Literales: Valores fijos como 5, "Hola" o los mismos valores booleanas True of False.
 
-**ALGORITMO**  
-"La receta paso a paso"  
-Diseño de una serie de reglas ordenadas para resolver un problema. Es el "plan de acción" que debe seguir el sistema.  
-* diseño: Flujo de la experiencia  
-* código: Se traduce en el diagrama de flujo y en las condicionales (if/else)
+- Operadores de Comparación: permiten contrastar dos valores
+* == (igual a )
+* != (diferente de)
+* > o < (mayor o menor que)
+* >= 0 <= (Mayor o igual / menos o igual que)
 
-Vamos a tener en p5 dos tipos de interacci{on  
-* Interacción discreta (eventos)
-cuando ocurre un evento especifico (clic) y el sistema responde con una acción única (aparecen círculos). Es un in
+- Operadores Lógicos: sirven para combinar varias expresiones
+* AND (&&): es verdadero solo si ambas partes son verdaderas
+* OR (||): es verdadero si al menos una de las partes es verdadera
+* NOT (!): invierte el valor (si era verdadero, pasa a ser falso)
 
-### **FUNCIONES PROPIAS** ###  
-Importante para dar:  
-1. Modularidad
-2. Reusabilidad
-Para simplificar la contrucción del código y reutilizar las funciones.
+Menor que < y mayor que >  
+Al comparar números, el operador devuelve un booleano basado en la comparación matemática.  
+Menor o igual que: < = y mayor o igual que: > =  
+Similar a < y >, pero también devuelve true cuando ambos valores son iguales
 
-**Cómo va a ir escrito**  
-Función abajo va a ir function(){  
-sintaxis function Nombredelafunción()}  
-Ejemplo: (abajo de function draw)
-Function Dibujarfiguras()}  
-stroke()  
-strokeWeight()
-fill()  
-ellpise()
+### SENTENCIA CONDICIONAL  
+#### if - else if - else  
+La sentencia if es una estructura especial que existe en casi todos los lenguajes de programación; toma una condición -expresada como un booleano- y ejecuta una pieza de código contenida dentro de las llaves { }  
+if (condición){ejecuta este código si es true}  
+ejemplo: si algún estudiante apaga por completo las luces de la sala, la profesora debe bailar. 
 
+#### if - else if - else  
+La sentencia if puede completarse con la sentencia else if, que añade condiciones de prueba complementarias a la original, y con la sentencia else, que implica tofos los casos que no cumplen con la condición original. (dato: puedes añadir tantas sentencias else if como desees)  
+If (condición){ejecuta este código si es true}  
+else if (condición 2){ejecuta este código si es true}  
+else{ejecuta este código si ambas condiciones son falsas}  
+ejemplo: si algúne estudiante apaga por completo las luces de la sala, la profesora debe bailar. Si no se cumple lo anterior SI la ayudante se levanta de su silla, la profesora debe cantar. Y SI NO SE CUMPLEN NINGUNA DE LAS ANTERIORES, los estudiantes guardan silencio.
 
-let y=0//declaro e inicializo variable Y y le aigno valor 0
-let speedX = 3; //declaro e inicializo variable speedX y le aigno valor 3
-let speedY = 5;//declaro e inicializo variable speedY y le aigno valor 5
-
-
-function setup() { //esta es la función de inicio que se ejecuta una sola vez cuando comienza el programa
-  createCanvas(400, 400);//crea un lienzo de 400px en X y 400px en Y
+if(estudainteApagaLuces){  
+profesora.nailar();  
+}  
+else if (ayudanteSeLevanta){  
+profesora.cantar();  
+}  
+else{  
+estudiantes.guardarSilencio();  
 }
-
-function draw() {// esta es la función que se ejecuta en loop (se vuelve a repetir constantemente) 60 veces por segundo 
-  background(255, 111, 0);// agrego un color naranja al fondo en valor r, g, b
-  
-function dibujarObjetos() {
-  noStroke();//configuro que ellipse no tenga borde
-  fill(24, 84, 61);//asigno un color verde oscuro a ellipse en valores r, g, b
-  ellipse(x,200,100,100);//cordenada x va a ser variable x, luego y(200) y de 50x50 (ancho y alto)
-  
-  noStroke();//configuro que ellipse no tenga borde
-  fill(173, 217, 199);//asigno un color verde claro a ellipse en valores r, g, b
-  ellipse(200,y,50,50);
-}
-  
-   x=x+speedX //variable X va a ser igual a la variable X + la variable speedX (avanza de tres pixeles cada vez que hace el draw (speed =3))
-   y=y+speedY //variable Y va a ser igual a la variable Y + la variable speedY
-  
-   if (x > width || x < 0) { //si X es mayor que el ancho del lienzo (400) o X es menos que 0 (condicional siempre llave que abre y cierra)
-    print("fueradecuadro")//imprime en la consola (console abajo) la cadena de texto "fuera de cuadro"
-speedX = speedX * -1; // La variable speedX va a ser igual a la variable speed X por -1 (pelota avanza por sus valores negativos (cualquier cosa multiplicada por -1))
-}
-  
-  if (y > width || y < 0) { //Si Y es mayor que el alto del lienzo (400) o Y es menor que 0 
-    print("fueradecuadro")//imprime en la consola (console abajo) la cadena de texto "fuera de cuadro"
-    speedY = speedY *-1; // La variable speedY va a ser igual a la variable speedY por -1
-}
-  } // ultima llave que cierra el darw 
-
