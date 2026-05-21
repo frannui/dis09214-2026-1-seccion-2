@@ -1,4 +1,4 @@
-# sesión 04 - 23/03
+# sesión 04 - 10/4
 # Variables
 
 Son datos constantes o que van cambiando (valores, números, etc)
