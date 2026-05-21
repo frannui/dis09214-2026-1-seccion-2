@@ -1,2 +1,2 @@
-# sesión 06 -
-# 🌸 Clase 15/05 🌸
+
+# 🌸 # sesión 06 - Clase 24 abril  🌸
