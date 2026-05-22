@@ -11,7 +11,10 @@ El hecho de generar conciencia sobre este tema permite cuestionar estos comporta
 Se ve la silueta de una mujer, está arrinconada y se ve amenazada por estas figuras puntiagudas, también está siendo apuntada por manos, representando como la sociedad juzga a la mujer por el mínimo error. El movimiento de los círculos representa la presión, y esta mujer se nota sobreestimulada por toda la situación. 
 
 • ¿Qué elementos visuales aparecen?  
-x
+Primero se ven el uso de formas geométricas, estas funcionan para llevar el ojo del espectador a lo que queremos representar, estas formas también generan contraste y ritmo visual. 
+ También los elementos están seleccionados para crear una sensación de lleno y vacío, para no generar una saturación en la imagen. 
+La diferencia de tonalidades permite crear jerarquías visuales de la composición por que a pesar de que lo que queremos representar es caótico, se pueda ver ordenado y limpio para ser más fácil de leer.
+
 
 ## DESCRIPCIÓN CONCEPTUAL  
 El proyecto representa como los estereotipos sociales afectan en la
