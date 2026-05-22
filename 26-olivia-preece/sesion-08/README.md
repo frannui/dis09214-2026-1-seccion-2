@@ -13,4 +13,6 @@ Se ve la silueta de una mujer, está arrinconada y se ve amenazada por estas fig
 • ¿Qué elementos visuales aparecen?  
 x
 
-## DESCRIPCIÓN CONCEPTUAL. 
+## DESCRIPCIÓN CONCEPTUAL  
+El proyecto representa como los estereotipos sociales afectan en la
+identidad personal. A través de la interacción el sistema muestra una transición desde una presión visual constante hacia una frase final como cierre reflexivo. 
