@@ -25,12 +25,13 @@ contendor o compartimiento numerado que contien multiples datos de cualquier tip
 let nombreArray =[e0, e1, e3, e4, e5] ; 
 llamar a los valores: nombreArray [n° elemento]  
 
- *para distinguir entre array y función los array deben escribirse con mayuscula al inicio a diferencia de las funciones 
+ *para distinguir entre array y función los array deben escribirse con mayuscula al inicio a diferencia de las funciones.
+ *nombreArray.length = total de elmentos en el array.
  
 
  
 
-ejemplo 1 array básico: Colores🟥🟧🟨🟩🟦🟪
+ejemplo1 array básico: Colores🟥🟧🟨🟩🟦🟪
 
 ```
 let Colores = ["red", "orange", "yellow", "green", "blue", "purple"];
@@ -56,7 +57,7 @@ function draw() {
 }
 ```
 
-ejemplo 2 diametro y elipse:
+ejemplo2 diametro y elipse:
 
 ```
 let Diametro = [0,10, 50, 100, 150, 200, 250, 300, 350, 400]; // Array con numeros
@@ -89,7 +90,7 @@ function mousePressed(){
 
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/944d4d19-d56d-4739-87c2-4562af4645e9" />
 
-ejemplo3 bandera gay 
+ejemplo3 bandera gay:
 
 ```
 let Colores = ["red", "orange", "yellow", "green", "blue", "purple"];
@@ -116,6 +117,40 @@ function draw() {
 ```
 
 
-<img width="527" height="373" alt="image" src="https://github.com/user-attachments/assets/c6ac0228-4feb-4f31-829c-a86d855581d8" />
+<img width="327" height="190" alt="image" src="https://github.com/user-attachments/assets/c6ac0228-4feb-4f31-829c-a86d855581d8" />
+
+ejemplo4 palabras:(hice algunos cambios)
+
+``` 
+let palabras = ["akrilla", "gaga", "XCX", "princesa"]; // Array con palabras
+let index = 0; // creamos e incializamos variable para guardar la posición del Array
+
+function setup() {
+  createCanvas(400, 400);
+  textAlign(CENTER, CENTER);
+}
+
+function draw() {
+  background(
+42, 245, 39
+);
+
+  textSize(100);
+  fill(0);
+  text(palabras[index], 200, 190);
+}
+
+function mousePressed() {
+  index = index + 1;
+
+  if (index >= palabras.length) {
+    index = 0;
+  }
+}
+
+```
+
+<img width="200" height="200" alt="Captura de pantalla 2026-05-29 113220" src="https://github.com/user-attachments/assets/c8563c18-0743-4638-8313-0b6bba8f3fe7" />
+
 
 
