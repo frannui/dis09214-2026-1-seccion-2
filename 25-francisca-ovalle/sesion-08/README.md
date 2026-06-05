@@ -1,4 +1,4 @@
-# sesión 06 - 22/05
+# sesión 08 - 22/05
 
 # SOLEMNE 2 ¡Movimiento!
 
