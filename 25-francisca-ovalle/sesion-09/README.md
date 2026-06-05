@@ -1,4 +1,4 @@
-# sesión 06 - 14/04
+# sesión 09 - 05/07
 ---
 Programar visualmente cada estado (funciones propias)  
 Paso 5 la logica del cambioy el reiniciio
