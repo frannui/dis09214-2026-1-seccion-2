@@ -34,7 +34,7 @@ pensar que una persona es mujer o usa pronombres femeninos solo por vestirse con
 IDEA DEL SKETCH
 -
 
-*• Descripción objetiva*
+*• Descripción objetiva* (arreglar)
 -
 ¿Qué es el proyecto? 
 
@@ -140,13 +140,13 @@ class Confetto {
 <img width="305" height="296" alt="image" src="https://github.com/user-attachments/assets/a9f9113a-2624-409e-9c4e-124ce91226bb" />
 
 
-DIAGRAMA DE FLUJO
+DIAGRAMA DE FLUJO (arreglar por favor qu eetsa horrible)
 -
 [link diagrama de flujo](https://canva.link/aw432ebcl03r7xk) 
 <img width="1920" height="1080" alt="diagrama de flujo A_C" src="https://github.com/user-attachments/assets/a9796842-1bc0-4228-ae23-65988de64d0d" />
 
 
-NUESTRO PROYECTO: label Maker
+NUESTRO PROYECTO: label Maker (poner version final)
 -
 [Label Maker](https://editor.p5js.org/StarBerryChiscake/sketches/9coSmJDBw) 
 
