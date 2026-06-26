@@ -1,4 +1,32 @@
 # sesión 06 - 14/04
+# Clase 8 y Solemne 2  
+
+# Arrays & Class  
+
+## Diagrama de flujo  
+### Algoritmo  
+Secuencia de instrucciones paso a paso, que son lógicas, definidas, ordenadas y finitas.  
+Estructura:  
+1. Input: La información que se necesita para empezar.
+2. Proceso: Pasos lógicos que transforman el Input.
+3. Output: Resultado final o la solución del problema.
+
+### Diagrama de flujo  
+Es la representación gráfica de un algoritmo, es una herramienta para planificar la lógica de un programa.  
+
+## Array (listas)  
+Un contenedor con compartimentos numerados donde se puede guardar múltiples datos bajo un mismo nombre. Lista que mantiene varis datos ordenados.  
+Sintaxis: let nombreArray =[e0 , e1 , e2 , e3 , e4 , e5]   
+nombreArray [ nº elemento ]   
+Se empieza a contar desde el 0, es decir, el 0 es 1, el 1 es 2, ...  
+
+## Class (molde)  
+Una clase es un molde o plantilla abstracta que define la estructura, los datos y los comportamientos que tendrá un tipo de objeto específico.   
+
+
+
+
+
 # Solemne2  
 ---
 
