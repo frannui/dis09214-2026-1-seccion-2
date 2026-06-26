@@ -63,7 +63,8 @@ feminista se veía plasmada en sus obras, de esta manera va completamente ligado
 que queremos demostar en nuestro proyecto.
 
 ## DIAGRAMA DE FLUJO  
-![diagramadeflujo](26-olivia-preece/DIAGRAMA DE FLUJO.png) 
+![diagramadeflujo](https://github.com/olivi4p/dis09214-2026-1-seccion-2/blob/main/26-olivia-preece/DIAGRAMA%20DE%20FLUJO.png?raw=true) 
+
 
 
 
