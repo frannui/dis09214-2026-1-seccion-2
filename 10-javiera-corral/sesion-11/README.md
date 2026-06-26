@@ -1,4 +1,4 @@
-# sesión 011 - 19/06
+# sesión 11 - 19/06
 
 AGREGAR SONIDO EN P5* loadSound
 -
@@ -40,8 +40,8 @@ Con esta instrucción, el sonido va a comenzar
 cuando le demos play a nuestro sketch.
 
 ejemplo: 
-arreglar el marco de codigo luego
 
+``` 
 let miSonido;
 
 function preload(){
@@ -61,7 +61,7 @@ function draw() {
   fill(255);
   text("ENERGY",200,220);
 }
-
+```
 
 control de sonido
 -
@@ -116,7 +116,7 @@ https://learningsynths.ableton.com/en/playground
 
 ejemplo sintetizadort basico:
 
-
+``` 
 // VARIABLES GLOBALES 
 
 let oscilador;           // variable para guardar los valores del objeto generador de señales de p5.sound
@@ -376,6 +376,6 @@ function estilarBotonesMinimales() {
   btnPlay.style('letter-spacing', '0.5px');
   btnPlay.style('cursor', 'pointer');
 }
-
-video tutorial: https://learningsynths.ableton.com/
-https://learningsynths.ableton.com/en/playground (arreglar link)
+```
+[revisar links](https://learningsynths.ableton.com/
+https://learningsynths.ableton.com/en/playground)
