@@ -38,9 +38,7 @@ Para la paleta de colores nos inspiramos en la estética retro-pop, utilizando t
 ![2](https://i.pinimg.com/736x/32/e4/9e/32e49e8f7d5339873205b813e2d8f61b.jpg)![4](https://i.pinimg.com/736x/e0/49/90/e049909bc586cc3803184fa316de3e6b.jpg)![1](https://i.pinimg.com/736x/a2/79/90/a27990d311f39674e2b84862b72f436a.jpg)  
 
 #### Diagrama de flujo:  
-![b](https://github.com/frannui/dis09214-2026-1-seccion-2/blob/main/25-francisca-ovalle/Examen/Mi%20primer%20tablero.jpg?raw=true)
-
-#### Codigo comentado:
+![b](https://github.com/frannui/dis09214-2026-1-seccion-2/blob/main/25-francisca-ovalle/Examen/aaa.jpg?raw=true)
 
 
 
