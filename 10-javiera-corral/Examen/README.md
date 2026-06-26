@@ -143,12 +143,14 @@ class Confetto {
 DIAGRAMA DE FLUJO (arreglar)
 -
 [link de pagina](https://canva.link/e0sex9b12uywgud)
+<img width="1777" height="815" alt="image" src="https://github.com/user-attachments/assets/a7366c90-2784-47b2-93af-3128b4b82a77" />
+
 
 aun no agrego imagen
 
 NUESTRO PROYECTO: ¿ERES TRANS?
 -
-[¿ERESTRANS](https://editor.p5js.org/andrenaliine/sketches/eyg1--_fPm)
+[¿ERESTRANS?](https://editor.p5js.org/andrenaliine/sketches/eyg1--_fPm)
 
 explicación de nuestro sistema:
 -
