@@ -178,4 +178,4 @@ Este sketch puede categorizarse como lo más divertido y estresante que hemos he
 
 Agradecimiento 🍰
 -
-gracias a melissa salgado por dar la idea decincorporar la bandera heterosexual (de manera despectiva) ⭐
+gracias a melissa salgado por dar la idea de incorporar la bandera heterosexual (de manera despectiva) ⭐
