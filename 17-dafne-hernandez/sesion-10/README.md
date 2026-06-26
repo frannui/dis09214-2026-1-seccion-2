@@ -33,3 +33,5 @@ Y siempre utilizando push() y pop() para cada figura o elemento.
 Toma todos los píxeles de la pantalla (o de una imagen) y los carga en la memoria de acceso rápido (RAM). Se comunica directamente con la tarjeta gráfica píxel por píxel en tiempo real.  
 
 
+![Gato](https://i.pinimg.com/736x/ea/13/66/ea13661381a4f501cccfd71a0fd3166b.jpg)
+
